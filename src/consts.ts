@@ -3,13 +3,13 @@
 
 // Site title and description
 export const SITE_LANG = "zh";
-export const SITE_TAB = "NineBytesBlog";
-export const SITE_TITLE = "NineBytesBlog";
+export const SITE_TAB = "NineBytes's Blog";
+export const SITE_TITLE = "NineBytes's Blog";
 export const SITE_DESCRIPTION = "玖字节的博客";
 export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
-export const USER_NAME = "NineBytesBlog";
+export const USER_NAME = "NineBytes's Blog";
 export const USER_SITE = "https://ninebytes.pages.dev"
 export const USER_AVATAR = "https://free4.yunpng.top/2025/01/03/67774e1561a91.webp"; //headshot
 
