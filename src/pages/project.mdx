@@ -1,0 +1,29 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import Collapse from "../components/mdx/Collapse.astro";
+import Diff from "../components/mdx/Diff.astro";
+import Error from "../components/mdx/Error.astro";
+import Info from "../components/mdx/Info.astro";
+import Kbd from "../components/mdx/Kbd.astro";
+import Success from "../components/mdx/Success.astro";
+import Warning from "../components/mdx/Warning.astro";
+import TimeLine from "../components/mdx/TimeLine.astro";
+import LinkCard from "../components/mdx/LinkCard.astro";
+
+<BaseLayout title="Project">
+  <BaseCard title="Project">
+# Project
+
+---
+
+  </BaseCard>
+  <ProjectCard
+    title="这只是一个空卡片😦"
+    image="https://free4.yunpng.top/2025/01/03/677800fe0b964.png"
+    desc="Don't look at me."
+    url=""
+    badge="Null"
+    target="_self"
+  />
+</BaseLayout>
